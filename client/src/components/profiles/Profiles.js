@@ -14,7 +14,7 @@ const Profiles = ({getProfiles, profile: {profiles, loading}}) => {
   {loading? <Spinner />: <Fragment>
     <h1 className="large trxt-primary">Developers</h1>
     <p className="lead">
-      <i className="fab fa-connectdevelop"></i> Browse and connect with developers
+      <i className="fab fa-connectdevelop" /> Browse and connect with developers
     </p>
     <div className="profiles">
       {profiles.length >0 ? (
@@ -34,5 +34,6 @@ Profiles.propTypes = {
 
 const mapStateToProps = (state) => ({
   profile: state.profile
-})
+});
+
 export default connect(mapStateToProps, {getProfiles})(Profiles);

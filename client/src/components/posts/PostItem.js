@@ -33,7 +33,7 @@ const PostItem = ({addLike, removeLike, deletePost, auth,
                         )}</span>
                     </button>
                     <button onClick={(e) => removeLike(_id)} type="button" className="btn btn-light">
-                        <i className="fas fa-thumbs-down"/ >
+                        <i className="fas fa-thumbs-down"/>
                     </button>
                     <Link to={`/posts/${_id}`} className="btn btn-primary">
                         Discussion {' '}
