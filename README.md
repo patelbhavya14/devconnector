@@ -1,2 +1,2 @@
 # devconnector
-<a href="https://devconnector-react-redux.herokuapp.com/">Live Demo</a>
+<a href="https://devconnector-react-redux.herokuapp.com/" target="_blank">Live Demo</a>
